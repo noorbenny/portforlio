@@ -2,9 +2,59 @@
 title: "Projects"
 --- 
 
-Demonstrate projects here
+## IMDb Movie Review Sentiment Prediction 
+
+Under UCLA's Department of Statistics and Data Science, our team explored the correlation between IMDb movie reviews and sentiments. Using a dataset of 50,000 reviews, we aimed to predict sentiments (negative/positive) from textual content employing logistic regression, KNN, LDA, QDA, and random forests.
+
+Key Highlights:
+
+- Data Preprocessing: Cleaned and processed 50,000 reviews using Python, refining text content for analysis. 
+  
+- Descriptive Statistics & Visualization: Balanced dataset with equal positive/negative sentiments. Word cloud analysis emphasized emotionally loaded words' significance. 
+
+- Feature Engineering: Constructed a 110-feature set using TF-IDF, sentiment lexicons, and word frequencies.
+- Dimensionality Reduction: Employed PCA to reduce high-dimensional text data while retaining crucial information. 
+
+- Model Evaluation: Logistic regression achieved 78.51% accuracy and 0.86 AUC. Random forests outperformed with an 84% accuracy, excelling in capturing complex patterns. 
+
+- Insights & Recommendations: Highlighted model performances, strengths, and limitations. Proposed future research on user-specific features and advanced dimensionality reduction for enhanced accuracy.
+
+Our project not only provided valuable insights into sentiment analysis but also highlighted the effectiveness of various classification methods in predicting sentiments from textual data. This endeavor expanded our understanding of statistical modeling in the realm of sentiment analysis for movie reviews on IMDb.
+
+  See project [here](Stats 101C Final Project.pdf "IMDb Movie Review Sentiment Prediction").
 
 
-```{r}
-1 + 3
-```
+## Examining Voter Turnout Rates in Congressional Elections 
+
+The purpose of this project is to examine the distribution of voter turnout rates in Congressional Elections of the population of different age groups and the distribution of voter turnout rates of different races. Using the data of voter turnout rates in Congressional Elections from 1966 to 2018, my group and I developed a linear regression model on the growth and decay of voter turnout rates of various age groups and races through curve fitting. In this project, we provide an insight on how to resolve the lower voter turnout rates in Congressional Elections for young people and racial minority groups. We propose methods to increase the voter turnout rates in the younger population and racial minority groups. 
+
+  See project [here](Math 42 Final Project.pdf "Examining Voter Turnout Rates in Congressional Elections "). 
+
+## Annual Duck Race Fest | ASCA 
+
+I partnered with a teammate to engineer a 18" inflated duck with no limitations in the choice of propulsion and steering technologies. We designed and constructed working prototypes and worked within a budget to produce a final result. Our team won third place in a final race against fifteen teams from local colleges. 
+
+  See project [here](Annual Duck Race Fest _ ASCA.pdf "Annual Duck Race Fest | ASCA"). 
+
+## Getting to Philosophy: Data Sturctures in Java 
+
+In the project, I worked with source code on Wikipedia pages to automate the process that accompanies the "Wikipedia: Getting to Philosophy" phenomenon. The phenomenon states that clicking on the first link in the main text of an English Wikipedia article, and repeating the process for subsequent articles, leads to the Philosophy article 97% of the time. In order to accomplish this, the algorithm should (1) click on the first non-parenthesized, non-italicized link, (2) ignore external links, links to the current page, or links to non-existent pages, and (3) stop when reaching the Philosophy article, a page with no links, a page that does not exist, or when a loop occurs. This project required knowledge of data structures and some familiarity with HTML. 
+
+  See project [here](https://www.youtube.com/watch?v=eGIJ97lAvZs "Getting to Philosophy: Data Sturctures in Java"). 
+
+## Data Science and the Environment: Research Paper 
+
+How can we use data science and related technologies to improve the environment on a local, national, and global scale? 
+
+The following paper reflects my research in an attempt to solve this question.
+
+  See project [here](Research Paper (Final) - Noor Benny "Data Science and the Environment: Research Paper")
+
+
+
+
+
+
+
+
+

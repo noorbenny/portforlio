@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>INSERT HEADING HERE - Projects</title>
+<title>Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -111,11 +77,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">INSERT HEADING HERE</span>
-    </a>
-  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -134,6 +95,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./work experience.html"> 
+<span class="menu-text">Work Experience</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Education.html"> 
+<span class="menu-text">Education</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -146,7 +115,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#imdb-movie-review-sentiment-prediction" id="toc-imdb-movie-review-sentiment-prediction" class="nav-link active" data-scroll-target="#imdb-movie-review-sentiment-prediction">IMDb Movie Review Sentiment Prediction</a></li>
+  <li><a href="#examining-voter-turnout-rates-in-congressional-elections" id="toc-examining-voter-turnout-rates-in-congressional-elections" class="nav-link" data-scroll-target="#examining-voter-turnout-rates-in-congressional-elections">Examining Voter Turnout Rates in Congressional Elections</a></li>
+  <li><a href="#annual-duck-race-fest-asca" id="toc-annual-duck-race-fest-asca" class="nav-link" data-scroll-target="#annual-duck-race-fest-asca">Annual Duck Race Fest | ASCA</a></li>
+  <li><a href="#getting-to-philosophy-data-sturctures-in-java" id="toc-getting-to-philosophy-data-sturctures-in-java" class="nav-link" data-scroll-target="#getting-to-philosophy-data-sturctures-in-java">Getting to Philosophy: Data Sturctures in Java</a></li>
+  <li><a href="#data-science-and-the-environment-research-paper" id="toc-data-science-and-the-environment-research-paper" class="nav-link" data-scroll-target="#data-science-and-the-environment-research-paper">Data Science and the Environment: Research Paper</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -170,15 +149,44 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Demonstrate projects here</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 4</code></pre>
-</div>
-</div>
+<section id="imdb-movie-review-sentiment-prediction" class="level2">
+<h2 class="anchored" data-anchor-id="imdb-movie-review-sentiment-prediction">IMDb Movie Review Sentiment Prediction</h2>
+<p>Under UCLA’s Department of Statistics and Data Science, our team explored the correlation between IMDb movie reviews and sentiments. Using a dataset of 50,000 reviews, we aimed to predict sentiments (negative/positive) from textual content employing logistic regression, KNN, LDA, QDA, and random forests.</p>
+<p>Key Highlights:</p>
+<ul>
+<li><p>Data Preprocessing: Cleaned and processed 50,000 reviews using Python, refining text content for analysis.</p></li>
+<li><p>Descriptive Statistics &amp; Visualization: Balanced dataset with equal positive/negative sentiments. Word cloud analysis emphasized emotionally loaded words’ significance.</p></li>
+<li><p>Feature Engineering: Constructed a 110-feature set using TF-IDF, sentiment lexicons, and word frequencies.</p></li>
+<li><p>Dimensionality Reduction: Employed PCA to reduce high-dimensional text data while retaining crucial information.</p></li>
+<li><p>Model Evaluation: Logistic regression achieved 78.51% accuracy and 0.86 AUC. Random forests outperformed with an 84% accuracy, excelling in capturing complex patterns.</p></li>
+<li><p>Insights &amp; Recommendations: Highlighted model performances, strengths, and limitations. Proposed future research on user-specific features and advanced dimensionality reduction for enhanced accuracy.</p></li>
+</ul>
+<p>Our project not only provided valuable insights into sentiment analysis but also highlighted the effectiveness of various classification methods in predicting sentiments from textual data. This endeavor expanded our understanding of statistical modeling in the realm of sentiment analysis for movie reviews on IMDb.</p>
+<p>See project <a href="Stats 101C Final Project.pdf" title="IMDb Movie Review Sentiment Prediction">here</a>.</p>
+</section>
+<section id="examining-voter-turnout-rates-in-congressional-elections" class="level2">
+<h2 class="anchored" data-anchor-id="examining-voter-turnout-rates-in-congressional-elections">Examining Voter Turnout Rates in Congressional Elections</h2>
+<p>The purpose of this project is to examine the distribution of voter turnout rates in Congressional Elections of the population of different age groups and the distribution of voter turnout rates of different races. Using the data of voter turnout rates in Congressional Elections from 1966 to 2018, my group and I developed a linear regression model on the growth and decay of voter turnout rates of various age groups and races through curve fitting. In this project, we provide an insight on how to resolve the lower voter turnout rates in Congressional Elections for young people and racial minority groups. We propose methods to increase the voter turnout rates in the younger population and racial minority groups.</p>
+<p>See project <a href="Math 42 Final Project.pdf" title="Examining Voter Turnout Rates in Congressional Elections">here</a>.</p>
+</section>
+<section id="annual-duck-race-fest-asca" class="level2">
+<h2 class="anchored" data-anchor-id="annual-duck-race-fest-asca">Annual Duck Race Fest | ASCA</h2>
+<p>I partnered with a teammate to engineer a 18” inflated duck with no limitations in the choice of propulsion and steering technologies. We designed and constructed working prototypes and worked within a budget to produce a final result. Our team won third place in a final race against fifteen teams from local colleges.</p>
+<p>See project <a href="Annual Duck Race Fest _ ASCA.pdf" title="Annual Duck Race Fest | ASCA">here</a>.</p>
+</section>
+<section id="getting-to-philosophy-data-sturctures-in-java" class="level2">
+<h2 class="anchored" data-anchor-id="getting-to-philosophy-data-sturctures-in-java">Getting to Philosophy: Data Sturctures in Java</h2>
+<p>In the project, I worked with source code on Wikipedia pages to automate the process that accompanies the “Wikipedia: Getting to Philosophy” phenomenon. The phenomenon states that clicking on the first link in the main text of an English Wikipedia article, and repeating the process for subsequent articles, leads to the Philosophy article 97% of the time. In order to accomplish this, the algorithm should (1) click on the first non-parenthesized, non-italicized link, (2) ignore external links, links to the current page, or links to non-existent pages, and (3) stop when reaching the Philosophy article, a page with no links, a page that does not exist, or when a loop occurs. This project required knowledge of data structures and some familiarity with HTML.</p>
+<p>See project <a href="https://www.youtube.com/watch?v=eGIJ97lAvZs" title="Getting to Philosophy: Data Sturctures in Java">here</a>.</p>
+</section>
+<section id="data-science-and-the-environment-research-paper" class="level2">
+<h2 class="anchored" data-anchor-id="data-science-and-the-environment-research-paper">Data Science and the Environment: Research Paper</h2>
+<p>How can we use data science and related technologies to improve the environment on a local, national, and global scale?</p>
+<p>The following paper reflects my research in an attempt to solve this question.</p>
+<p>See project <a href="Research Paper (Final) - Noor Benny" title="Data Science and the Environment: Research Paper">here</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -564,6 +572,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>© 2024, Noor Benny</p>
+</div>
+  </div>
+</footer>
 
 
 

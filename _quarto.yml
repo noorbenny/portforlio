@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "INSERT HEADING HERE"
+  title: ""
   navbar:
     left:
       - href: index.qmd
@@ -11,7 +11,14 @@ website:
         text: About  
       - href: projects.qmd 
         text: Projects 
-      
+      - href: work experience.qmd 
+        text: Work Experience 
+      - href: Education.qmd  
+        text: Education 
+
+  page-footer: 
+      right: "&copy; 2024, Noor Benny" 
+
 
 format:
   html:
@@ -19,6 +26,7 @@ format:
     css: styles.css
     toc: true 
     
+
 execute: 
   freeze: auto 
 
