@@ -47,8 +47,10 @@ In the project, I worked with source code on Wikipedia pages to automate the pro
 How can we use data science and related technologies to improve the environment on a local, national, and global scale? 
 
 The following paper reflects my research in an attempt to solve this question.
+  
+  See project [here](Research Paper.pdf "Data Science and the Environment: Research Paper"). 
+  
 
-  See project [here](Research Paper (Final) - Noor Benny "Data Science and the Environment: Research Paper")
 
 
 
